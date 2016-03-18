@@ -225,7 +225,7 @@ The configuration file named config.xml, must be in the root directory of the ga
 >
 >
 ```xml
- <entry key="color_options" type="radio" label="Choose a color." private="false" >
+ <entry key="color_options" type="radio" label="Choose a color." private="false">
       {"list":[{ "key":"blue"},{"key": "red"},{"key": "orange"}]}
  </entry>
 ```
@@ -236,20 +236,20 @@ The configuration file named config.xml, must be in the root directory of the ga
 >
 >
 ```xml
-<entry key="default_text" type="textarea" label="Starting text" private="false" >
+<entry key="default_text" type="textarea" label="Starting text" private="false">
      This is textarea content
 </entry>
 ```
 
 
 ### Label
->#### **``lable="Your label"``**
+>#### **``label="Your label"``**
 >
 >This specifies the label that should be used for and entry with a “type” attribute.
 >
 >
 ```xml
-<entry key="default_text" type="textarea" label="Starting text" private="false" >
+<entry key="default_text" type="textarea" label="Starting text" private="false">
      This is textarea content
 </entry>
 ```
@@ -331,7 +331,7 @@ The Metadata API library, which comes packaged in the gadgetlib.js, provides a C
          mime_type : YOUR_MIME_TYPE,
          item      : '/index.pcf', //optional alternative to mime_type, 
                                    //name of a site, page / directory path, id of asset
-         item_type : 'page', //required if 'item' is provided.
+         item_type : 'page' //required if 'item' is provided.
     },{
          success   : successFn,
          error     : errorFn
@@ -346,7 +346,7 @@ The Metadata API library, which comes packaged in the gadgetlib.js, provides a C
     metadata : 'content of metadata',
     account  : OU_Campus_Account,
     user     : {}, //user object who created the metadata
-    scope    : 0 //0 for private, 2 for public
+    scope    : 0, //0 for private, 2 for public
     created  : "2015-12-15T19:20:03Z",
     modifed  : "2015-12-15T19:30:01Z", //last save / update date or null
     groups   : {}
@@ -370,7 +370,7 @@ The Metadata API library, which comes packaged in the gadgetlib.js, provides a C
     YOUR_MIME_TYPE = 'unique_identifier/json';
     gadget.Metadata.view({
          mime_type : YOUR_MIME_TYPE,
-         id        : 123, //id of the metadata to retrieve
+         id        : 123 //id of the metadata to retrieve
     },{
          success   : successFn,
          error     : errorFn
@@ -384,7 +384,7 @@ The Metadata API library, which comes packaged in the gadgetlib.js, provides a C
     metadata : 'content of metadata',
     account  : OU_Campus_Account,
     user     : {}, //user object who created the metadata
-    scope    : 0 //0 for private, 2 for public
+    scope    : 0, //0 for private, 2 for public
     created  : "2015-12-15T19:20:03Z",
     modifed  : "2015-12-15T19:30:01Z", //last save / update date or null
     groups   : {},
@@ -411,9 +411,9 @@ The Metadata API library, which comes packaged in the gadgetlib.js, provides a C
     gadget.Metadata.update({
          action    : 'update',
          mime_type : YOUR_MIME_TYPE,
-         id        : METADATA_ID
+         id        : METADATA_ID,
          metadata  : JSON.stringify({}),
-         scope     : 'private', //optional defaults to private
+         scope     : 'private' //optional defaults to private
     },{
          success   : successFn,
          error     : errorFn
