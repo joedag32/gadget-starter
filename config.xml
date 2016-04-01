@@ -55,10 +55,18 @@
     If the sidebar_context property is specified, the sidebar gadget will only appear when the 
     OU Campus app is "in" the specified context. Curent supported contexts are as follows:
     
-    "page"  : True when the subject of the current view is an individual page. Examples include
-              page preview, page edit, and page properties.
-    "edit"  : True only for WYSIWYG editing views and source editing views.
-    "asset" : True when the subject of the current view is an individual asset.
-    "file"  : True when the subject of the current view is either an individual page or an 
-              individual asset.
+    "page"              : True when the subject of the current view is an individual page. Examples include
+                          page preview, page edit, and page properties.
+    "page-params"       : True for Page Parameters view
+    "page-preview"      : True for Page preview view
+    "page-edit-preview" : True for Page Edit preview view
+    "edit"              : True only for WYSIWYG editing views and source editing views.
+    "justedit"          : True for JustEdit
+    "legacy-wysiwyg"    : True for Legacy WYSIWYG (not JustEdit)
+    "source-edit"       : True for Source editor
+    "asset"             : True when the subject of the current view is an individual asset.
+    "asset-edit"        : True for Asset Edit preview view
+    "asset-preview"     : True for Asset preview view
+    "file"              : True when the subject of the current view is either an individual page or an 
+                          individual asset.
 -->

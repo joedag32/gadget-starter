@@ -19,12 +19,12 @@ Want to discuss your Gadget idea, get some help with your code, or share your ne
       - [Overwritable](#overwritable)
       - [Type](#type)
 - [Gadget Events](#gadget-events)
-- [Metadata API](#Metadata-API)
+- [Metadata API](#metadata-api)
       - [Create](#create)
       - [Read](#read)
       - [Update](#update)
       - [Delete](#delete)
-      - [Link/Un-link](#Link-and-Un-link)
+      - [Link/Un-link](#link-and-un-link)
 
 
 ## Configuring the Config.xml
@@ -93,19 +93,19 @@ The configuration file named config.xml, must be in the root directory of the ga
 ```
 >
 >| Value | Visibility          |
->| ------------- | ----------- |
->| edit      | legacy wysiwyg, source editor, and JustEdit|
->| justedit     | JustEdit     |
->| page     | Any page view (preview, edit, source, parameters, logs, versions)     |
->| page-params     | Page Parameters view   |
->| asset     | Any asset view (preview, edit,logs, versions, submissions)     |
->| file     | Any Asset or Page view     |
->| page-edit-preview     | Page Edit preview     |
->| asset-edit     | Asset Edit preview     |
->| page-preview     | Page preview    |
->| legacy-wysiwyg   | Legacy WYSIWYG (not JustEdit)   |
->| source-edit  | Source editor   |
->| asset-preview  | Asset preview  |
+>| ------------- 	 | ----------- |
+>| edit      	 	 | legacy wysiwyg, source editor, and JustEdit|
+>| justedit      	 | JustEdit     |
+>| page     	 	 | Any page view (preview, edit, source, parameters, logs, versions)     |
+>| page-params   	 | Page Parameters view   |
+>| asset     	     | Any asset view (preview, edit,logs, versions, submissions)     |
+>| file     	 	 | Any Asset or Page view     |
+>| page-edit-preview | Page Edit preview     |
+>| asset-edit        | Asset Edit preview     |
+>| page-preview      | Page preview    |
+>| legacy-wysiwyg    | Legacy WYSIWYG (not JustEdit)   |
+>| source-edit  	 | Source editor   |
+>| asset-preview     | Asset preview  |
 
 >#### **``notifications``**
 >
@@ -115,21 +115,21 @@ The configuration file named config.xml, must be in the root directory of the ga
 ```xml
 <entry key="notifications" private="true">message</entry>
 ```
->| Event Name | Triggered On          |
->| ------------- | ----------- |
->| message      | Inbox message received, workflow message received|
->| workflow     | Workflow request recieved     |
->| activity     | Page actions (publish, copy, move, revert), user created, group created,      |
->| linkcheck     | Link check finished     |
->| publish     | After a page is renamed, after a page is moved     |
->| scan     | After site scan has completed, after directory scan has completed     |
->| revert     | After site revert    |
->| general     | Page recycled  |
->| rename  | Page rename  |
->| move  | Page moved   |
->| copy  | Page copied |
->| params-save  | Page Properties saved |
->| zipimport  | Zip uploaded |
+>| Event Name 		  | Triggered On          |
+>| ------------- 	  | ----------- |
+>| message            | Inbox message received, workflow message received|
+>| workflow     	  | Workflow request recieved     |
+>| activity     	  | Page actions (publish, copy, move, revert), user created, group created,      |
+>| linkcheck    	  | Link check finished     |
+>| publish      	  | After a page is renamed, after a page is moved     |
+>| scan               | After site scan has completed, after directory scan has completed     |
+>| revert             | After site revert    |
+>| general            | Page recycled  |
+>| rename       	  | Page rename  |
+>| move               | Page moved   |
+>| copy         	  | Page copied |
+>| params-save  	  | Page Properties saved |
+>| zipimport    	  | Zip uploaded |
 >| wysiwyg-selection  | When content selection occurs in the WYSIWYG (Legacy WYSIWYG/ JustEdit) |
 
 >#### **``columns``**
