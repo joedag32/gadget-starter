@@ -4,7 +4,7 @@ A skeleton for creating Gadgets for the [OU Campus™ web content management sys
 
 ## Creating and Installing Gadgets
 
-Refer to the [OmniUpdate Support documentation](http://support.omniupdate.com/oucampus10/setup/gadgets/creating-gadgets.html) for instructions on how to create and install custom Gadgets.
+Refer to the [OmniUpdate Support documentation](https://support.omniupdate.com/learn-ou-campus/administration/setup/gadgets.html#addingcustomgadgets) for instructions on how to create and install custom Gadgets.
 
 ## Resources
 
